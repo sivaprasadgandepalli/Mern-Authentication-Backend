@@ -1,0 +1,21 @@
+###get
+GET http://localhost:2001/
+
+###post
+POST http://localhost:2001/user/register
+Content-Type: application/json
+
+{
+  "name": "siva",
+  "email": "sivagandepalli@gmail.com",
+  "password":"siva@2001"
+}
+
+### login
+POST http://localhost:2001/user/login
+Content-Type: application/json
+
+{
+  "email": "sivagandepalli@gmail.com",
+  "password":"siva@2001"
+}
